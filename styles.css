@@ -108,7 +108,7 @@ a:nth-child(3) {
 .playlists-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 2.5em;
+    gap: 2.75em;
     margin: auto;
 }
 
@@ -116,7 +116,6 @@ a:nth-child(3) {
     flex: 1;
     flex-basis: 300px;
     text-align: center;
-    /* flex-wrap: wrap; */
 }
 
 .songs {
