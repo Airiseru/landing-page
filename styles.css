@@ -183,3 +183,9 @@ a:nth-child(3) {
     background-color: #252a35;
     font-size: 15px;
 }
+
+.footer {
+    text-align: center;
+    background-color: #1a1313;
+    padding: 2.5em;
+}
