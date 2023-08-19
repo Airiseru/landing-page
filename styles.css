@@ -49,11 +49,12 @@ a:nth-child(3) {
     flex: 1;
     background-color: #252a35;
     display: flex;
-    justify-content: center;
-    gap: 100px;
+    justify-content: space-between;
+    gap: 50px;
     align-items: center;
     padding: 5em 0;
     width: 75%;
+    flex-wrap: wrap;
     margin: auto;
 }
 
@@ -62,7 +63,7 @@ a:nth-child(3) {
 }
 
 .header-image {
-    height: 300px;
+    height: 250px;
     border-radius: 200px;
 }
 
@@ -80,6 +81,7 @@ a:nth-child(3) {
 .subtext {
     margin: 1em 0;
     font-size: 25px;
+    width: 90%;
     color: white;
 }
 
@@ -120,4 +122,25 @@ a:nth-child(3) {
 
 .songs {
     margin-bottom: 1.25em;
+}
+
+.quote {
+    background-color: #252a35;
+    padding: 10em 1.75em;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-quote {
+    background-color: #252a35;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.author {
+    background-color: #252a35;
+    align-self: center;
+    padding-top: 1.5em;
+    font-size: 25px;
 }
